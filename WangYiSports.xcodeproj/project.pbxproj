@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD05D4432186E8BB00E59AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4422186E8BB00E59AFA /* AppDelegate.m */; };
+		FD05D4462186E8BB00E59AFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4452186E8BB00E59AFA /* ViewController.m */; };
+		FD05D4492186E8BB00E59AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD05D4472186E8BB00E59AFA /* Main.storyboard */; };
+		FD05D44B2186E8BE00E59AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD05D44A2186E8BE00E59AFA /* Assets.xcassets */; };
+		FD05D44E2186E8BE00E59AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD05D44C2186E8BE00E59AFA /* LaunchScreen.storyboard */; };
+		FD05D4512186E8BE00E59AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4502186E8BE00E59AFA /* main.m */; };
+		FD05D45B2186E8BE00E59AFA /* WangYiSportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D45A2186E8BE00E59AFA /* WangYiSportsTests.m */; };
+		FD05D4662186E8BE00E59AFA /* WangYiSportsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4652186E8BE00E59AFA /* WangYiSportsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD05D4572186E8BE00E59AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD05D4362186E8BB00E59AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD05D43D2186E8BB00E59AFA;
+			remoteInfo = WangYiSports;
+		};
+		FD05D4622186E8BE00E59AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD05D4362186E8BB00E59AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD05D43D2186E8BB00E59AFA;
+			remoteInfo = WangYiSports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD05D43E2186E8BB00E59AFA /* WangYiSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD05D4412186E8BB00E59AFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD05D4422186E8BB00E59AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD05D4442186E8BB00E59AFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD05D4452186E8BB00E59AFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD05D4482186E8BB00E59AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD05D44A2186E8BE00E59AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD05D44D2186E8BE00E59AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD05D44F2186E8BE00E59AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD05D4502186E8BE00E59AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD05D4562186E8BE00E59AFA /* WangYiSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD05D45A2186E8BE00E59AFA /* WangYiSportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangYiSportsTests.m; sourceTree = "<group>"; };
+		FD05D45C2186E8BE00E59AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD05D4612186E8BE00E59AFA /* WangYiSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD05D4652186E8BE00E59AFA /* WangYiSportsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangYiSportsUITests.m; sourceTree = "<group>"; };
+		FD05D4672186E8BE00E59AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD05D43B2186E8BB00E59AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD05D4532186E8BE00E59AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD05D45E2186E8BE00E59AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD05D4352186E8BB00E59AFA = {
+			isa = PBXGroup;
+			children = (
+				FD05D4402186E8BB00E59AFA /* WangYiSports */,
+				FD05D4592186E8BE00E59AFA /* WangYiSportsTests */,
+				FD05D4642186E8BE00E59AFA /* WangYiSportsUITests */,
+				FD05D43F2186E8BB00E59AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD05D43F2186E8BB00E59AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D43E2186E8BB00E59AFA /* WangYiSports.app */,
+				FD05D4562186E8BE00E59AFA /* WangYiSportsTests.xctest */,
+				FD05D4612186E8BE00E59AFA /* WangYiSportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD05D4402186E8BB00E59AFA /* WangYiSports */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D4412186E8BB00E59AFA /* AppDelegate.h */,
+				FD05D4422186E8BB00E59AFA /* AppDelegate.m */,
+				FD05D4442186E8BB00E59AFA /* ViewController.h */,
+				FD05D4452186E8BB00E59AFA /* ViewController.m */,
+				FD05D4472186E8BB00E59AFA /* Main.storyboard */,
+				FD05D44A2186E8BE00E59AFA /* Assets.xcassets */,
+				FD05D44C2186E8BE00E59AFA /* LaunchScreen.storyboard */,
+				FD05D44F2186E8BE00E59AFA /* Info.plist */,
+				FD05D4502186E8BE00E59AFA /* main.m */,
+			);
+			path = WangYiSports;
+			sourceTree = "<group>";
+		};
+		FD05D4592186E8BE00E59AFA /* WangYiSportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D45A2186E8BE00E59AFA /* WangYiSportsTests.m */,
+				FD05D45C2186E8BE00E59AFA /* Info.plist */,
+			);
+			path = WangYiSportsTests;
+			sourceTree = "<group>";
+		};
+		FD05D4642186E8BE00E59AFA /* WangYiSportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D4652186E8BE00E59AFA /* WangYiSportsUITests.m */,
+				FD05D4672186E8BE00E59AFA /* Info.plist */,
+			);
+			path = WangYiSportsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD05D43D2186E8BB00E59AFA /* WangYiSports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD05D46A2186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSports" */;
+			buildPhases = (
+				FD05D43A2186E8BB00E59AFA /* Sources */,
+				FD05D43B2186E8BB00E59AFA /* Frameworks */,
+				FD05D43C2186E8BB00E59AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WangYiSports;
+			productName = WangYiSports;
+			productReference = FD05D43E2186E8BB00E59AFA /* WangYiSports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD05D4552186E8BE00E59AFA /* WangYiSportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD05D46D2186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSportsTests" */;
+			buildPhases = (
+				FD05D4522186E8BE00E59AFA /* Sources */,
+				FD05D4532186E8BE00E59AFA /* Frameworks */,
+				FD05D4542186E8BE00E59AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD05D4582186E8BE00E59AFA /* PBXTargetDependency */,
+			);
+			name = WangYiSportsTests;
+			productName = WangYiSportsTests;
+			productReference = FD05D4562186E8BE00E59AFA /* WangYiSportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD05D4602186E8BE00E59AFA /* WangYiSportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD05D4702186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSportsUITests" */;
+			buildPhases = (
+				FD05D45D2186E8BE00E59AFA /* Sources */,
+				FD05D45E2186E8BE00E59AFA /* Frameworks */,
+				FD05D45F2186E8BE00E59AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD05D4632186E8BE00E59AFA /* PBXTargetDependency */,
+			);
+			name = WangYiSportsUITests;
+			productName = WangYiSportsUITests;
+			productReference = FD05D4612186E8BE00E59AFA /* WangYiSportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD05D4362186E8BB00E59AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.demo.sports;
+				TargetAttributes = {
+					FD05D43D2186E8BB00E59AFA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FD05D4552186E8BE00E59AFA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FD05D43D2186E8BB00E59AFA;
+					};
+					FD05D4602186E8BE00E59AFA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FD05D43D2186E8BB00E59AFA;
+					};
+				};
+			};
+			buildConfigurationList = FD05D4392186E8BB00E59AFA /* Build configuration list for PBXProject "WangYiSports" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD05D4352186E8BB00E59AFA;
+			productRefGroup = FD05D43F2186E8BB00E59AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD05D43D2186E8BB00E59AFA /* WangYiSports */,
+				FD05D4552186E8BE00E59AFA /* WangYiSportsTests */,
+				FD05D4602186E8BE00E59AFA /* WangYiSportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD05D43C2186E8BB00E59AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD05D44E2186E8BE00E59AFA /* LaunchScreen.storyboard in Resources */,
+				FD05D44B2186E8BE00E59AFA /* Assets.xcassets in Resources */,
+				FD05D4492186E8BB00E59AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD05D4542186E8BE00E59AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD05D45F2186E8BE00E59AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD05D43A2186E8BB00E59AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD05D4462186E8BB00E59AFA /* ViewController.m in Sources */,
+				FD05D4512186E8BE00E59AFA /* main.m in Sources */,
+				FD05D4432186E8BB00E59AFA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD05D4522186E8BE00E59AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD05D45B2186E8BE00E59AFA /* WangYiSportsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD05D45D2186E8BE00E59AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD05D4662186E8BE00E59AFA /* WangYiSportsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD05D4582186E8BE00E59AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD05D43D2186E8BB00E59AFA /* WangYiSports */;
+			targetProxy = FD05D4572186E8BE00E59AFA /* PBXContainerItemProxy */;
+		};
+		FD05D4632186E8BE00E59AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD05D43D2186E8BB00E59AFA /* WangYiSports */;
+			targetProxy = FD05D4622186E8BE00E59AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD05D4472186E8BB00E59AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD05D4482186E8BB00E59AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD05D44C2186E8BE00E59AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD05D44D2186E8BE00E59AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD05D4682186E8BE00E59AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD05D4692186E8BE00E59AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD05D46B2186E8BE00E59AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WangYiSports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangYiSports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD05D46C2186E8BE00E59AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WangYiSports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangYiSports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD05D46E2186E8BE00E59AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WangYiSportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangYiSportsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WangYiSports.app/WangYiSports";
+			};
+			name = Debug;
+		};
+		FD05D46F2186E8BE00E59AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WangYiSportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangYiSportsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WangYiSports.app/WangYiSports";
+			};
+			name = Release;
+		};
+		FD05D4712186E8BE00E59AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WangYiSportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangYiSportsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WangYiSports;
+			};
+			name = Debug;
+		};
+		FD05D4722186E8BE00E59AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WangYiSportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangYiSportsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WangYiSports;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD05D4392186E8BB00E59AFA /* Build configuration list for PBXProject "WangYiSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD05D4682186E8BE00E59AFA /* Debug */,
+				FD05D4692186E8BE00E59AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD05D46A2186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD05D46B2186E8BE00E59AFA /* Debug */,
+				FD05D46C2186E8BE00E59AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD05D46D2186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD05D46E2186E8BE00E59AFA /* Debug */,
+				FD05D46F2186E8BE00E59AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD05D4702186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD05D4712186E8BE00E59AFA /* Debug */,
+				FD05D4722186E8BE00E59AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD05D4362186E8BB00E59AFA /* Project object */;
+}
