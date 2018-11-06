@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09851417A077B0ED52653BD1 /* libPods-WangYiSportsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 763952F72421A05C1D7EFE8F /* libPods-WangYiSportsUITests.a */; };
+		8613D3842B1029D8CC8E8CE9 /* libPods-WangYiSportsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A8154D511E942B18AAD723 /* libPods-WangYiSportsTests.a */; };
+		F70EAB08E67DFB8627110443 /* libPods-WangYiSports.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631AA4ECAB710D10A987205F /* libPods-WangYiSports.a */; };
 		FD05D4432186E8BB00E59AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4422186E8BB00E59AFA /* AppDelegate.m */; };
-		FD05D4462186E8BB00E59AFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4452186E8BB00E59AFA /* ViewController.m */; };
-		FD05D4492186E8BB00E59AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD05D4472186E8BB00E59AFA /* Main.storyboard */; };
 		FD05D44B2186E8BE00E59AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD05D44A2186E8BE00E59AFA /* Assets.xcassets */; };
-		FD05D44E2186E8BE00E59AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD05D44C2186E8BE00E59AFA /* LaunchScreen.storyboard */; };
 		FD05D4512186E8BE00E59AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4502186E8BE00E59AFA /* main.m */; };
 		FD05D45B2186E8BE00E59AFA /* WangYiSportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D45A2186E8BE00E59AFA /* WangYiSportsTests.m */; };
 		FD05D4662186E8BE00E59AFA /* WangYiSportsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4652186E8BE00E59AFA /* WangYiSportsUITests.m */; };
+		FD05D4772186ECAA00E59AFA /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4762186ECAA00E59AFA /* TabbarViewController.m */; };
+		FD05D47A2186ECC100E59AFA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4792186ECC100E59AFA /* MainViewController.m */; };
+		FD05D47D2186ECCE00E59AFA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D47C2186ECCE00E59AFA /* ProfileViewController.m */; };
+		FD05D4802186F49200E59AFA /* WStabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D47F2186F49200E59AFA /* WStabbar.m */; };
+		FD05D4822186F74100E59AFA /* defaultImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD05D4812186F74100E59AFA /* defaultImage.jpg */; };
+		FD05D4872186F9F800E59AFA /* WSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4862186F9F800E59AFA /* WSTools.m */; };
+		FD05D48A2186FFA400E59AFA /* WSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D4892186FFA400E59AFA /* WSCell.m */; };
+		FD05D48D218713DE00E59AFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D48C218713DE00E59AFA /* DetailViewController.m */; };
+		FD05D4902187D18C00E59AFA /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05D48F2187D18C00E59AFA /* BlockViewController.m */; };
+		FD1574BA219117DE00C72168 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1574B8219117DD00C72168 /* home.png */; };
+		FD1574BB219117DE00C72168 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1574B9219117DD00C72168 /* profile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0299B0C45AC1B1E33A458811 /* Pods-WangYiSportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiSportsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiSportsTests/Pods-WangYiSportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49A8154D511E942B18AAD723 /* libPods-WangYiSportsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WangYiSportsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631AA4ECAB710D10A987205F /* libPods-WangYiSports.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WangYiSports.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763952F72421A05C1D7EFE8F /* libPods-WangYiSportsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WangYiSportsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7A3CE6401596D7C1B317E3 /* Pods-WangYiSportsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiSportsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiSportsUITests/Pods-WangYiSportsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF2B292BA9D9ECE54148065 /* Pods-WangYiSports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiSports.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiSports/Pods-WangYiSports.release.xcconfig"; sourceTree = "<group>"; };
+		A0A04CCF0ACCF67EE952F3BC /* Pods-WangYiSportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiSportsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiSportsUITests/Pods-WangYiSportsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A57F61DC7860DEC8A6475ADC /* Pods-WangYiSportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiSportsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiSportsTests/Pods-WangYiSportsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2AFB4CF505F1C19272E7DF7 /* Pods-WangYiSports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiSports.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiSports/Pods-WangYiSports.debug.xcconfig"; sourceTree = "<group>"; };
 		FD05D43E2186E8BB00E59AFA /* WangYiSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD05D4412186E8BB00E59AFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD05D4422186E8BB00E59AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD05D4442186E8BB00E59AFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD05D4452186E8BB00E59AFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FD05D4482186E8BB00E59AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD05D44A2186E8BE00E59AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD05D44D2186E8BE00E59AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD05D44F2186E8BE00E59AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD05D4502186E8BE00E59AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD05D4562186E8BE00E59AFA /* WangYiSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +67,25 @@
 		FD05D4612186E8BE00E59AFA /* WangYiSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD05D4652186E8BE00E59AFA /* WangYiSportsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangYiSportsUITests.m; sourceTree = "<group>"; };
 		FD05D4672186E8BE00E59AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD05D4752186ECAA00E59AFA /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		FD05D4762186ECAA00E59AFA /* TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		FD05D4782186ECC100E59AFA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FD05D4792186ECC100E59AFA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FD05D47B2186ECCE00E59AFA /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		FD05D47C2186ECCE00E59AFA /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		FD05D47E2186F49200E59AFA /* WStabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WStabbar.h; sourceTree = "<group>"; };
+		FD05D47F2186F49200E59AFA /* WStabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WStabbar.m; sourceTree = "<group>"; };
+		FD05D4812186F74100E59AFA /* defaultImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultImage.jpg; sourceTree = "<group>"; };
+		FD05D4852186F9F800E59AFA /* WSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTools.h; sourceTree = "<group>"; };
+		FD05D4862186F9F800E59AFA /* WSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTools.m; sourceTree = "<group>"; };
+		FD05D4882186FFA400E59AFA /* WSCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSCell.h; sourceTree = "<group>"; };
+		FD05D4892186FFA400E59AFA /* WSCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSCell.m; sourceTree = "<group>"; };
+		FD05D48B218713DE00E59AFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FD05D48C218713DE00E59AFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FD05D48E2187D18C00E59AFA /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		FD05D48F2187D18C00E59AFA /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		FD1574B8219117DD00C72168 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		FD1574B9219117DD00C72168 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70EAB08E67DFB8627110443 /* libPods-WangYiSports.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8613D3842B1029D8CC8E8CE9 /* libPods-WangYiSportsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +109,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09851417A077B0ED52653BD1 /* libPods-WangYiSportsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB42419B82CBA36A57934A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631AA4ECAB710D10A987205F /* libPods-WangYiSports.a */,
+				49A8154D511E942B18AAD723 /* libPods-WangYiSportsTests.a */,
+				763952F72421A05C1D7EFE8F /* libPods-WangYiSportsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D287623E25068AD0C5695F80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2AFB4CF505F1C19272E7DF7 /* Pods-WangYiSports.debug.xcconfig */,
+				9FF2B292BA9D9ECE54148065 /* Pods-WangYiSports.release.xcconfig */,
+				0299B0C45AC1B1E33A458811 /* Pods-WangYiSportsTests.debug.xcconfig */,
+				A57F61DC7860DEC8A6475ADC /* Pods-WangYiSportsTests.release.xcconfig */,
+				9F7A3CE6401596D7C1B317E3 /* Pods-WangYiSportsUITests.debug.xcconfig */,
+				A0A04CCF0ACCF67EE952F3BC /* Pods-WangYiSportsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD05D4352186E8BB00E59AFA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,8 @@
 				FD05D4592186E8BE00E59AFA /* WangYiSportsTests */,
 				FD05D4642186E8BE00E59AFA /* WangYiSportsUITests */,
 				FD05D43F2186E8BB00E59AFA /* Products */,
+				D287623E25068AD0C5695F80 /* Pods */,
+				CB42419B82CBA36A57934A20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +164,11 @@
 		FD05D4402186E8BB00E59AFA /* WangYiSports */ = {
 			isa = PBXGroup;
 			children = (
-				FD05D4412186E8BB00E59AFA /* AppDelegate.h */,
-				FD05D4422186E8BB00E59AFA /* AppDelegate.m */,
-				FD05D4442186E8BB00E59AFA /* ViewController.h */,
-				FD05D4452186E8BB00E59AFA /* ViewController.m */,
-				FD05D4472186E8BB00E59AFA /* Main.storyboard */,
+				FD05D4842186F9CB00E59AFA /* WSBase */,
+				FD05D4832186F75100E59AFA /* WSImage */,
+				FD05D4742186EA3B00E59AFA /* WSView */,
+				FD05D4732186EA2200E59AFA /* WSController */,
 				FD05D44A2186E8BE00E59AFA /* Assets.xcassets */,
-				FD05D44C2186E8BE00E59AFA /* LaunchScreen.storyboard */,
 				FD05D44F2186E8BE00E59AFA /* Info.plist */,
 				FD05D4502186E8BE00E59AFA /* main.m */,
 			);
@@ -132,6 +193,55 @@
 			path = WangYiSportsUITests;
 			sourceTree = "<group>";
 		};
+		FD05D4732186EA2200E59AFA /* WSController */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D4752186ECAA00E59AFA /* TabbarViewController.h */,
+				FD05D4762186ECAA00E59AFA /* TabbarViewController.m */,
+				FD05D4782186ECC100E59AFA /* MainViewController.h */,
+				FD05D4792186ECC100E59AFA /* MainViewController.m */,
+				FD05D47B2186ECCE00E59AFA /* ProfileViewController.h */,
+				FD05D47C2186ECCE00E59AFA /* ProfileViewController.m */,
+				FD05D48B218713DE00E59AFA /* DetailViewController.h */,
+				FD05D48C218713DE00E59AFA /* DetailViewController.m */,
+				FD05D48E2187D18C00E59AFA /* BlockViewController.h */,
+				FD05D48F2187D18C00E59AFA /* BlockViewController.m */,
+			);
+			path = WSController;
+			sourceTree = "<group>";
+		};
+		FD05D4742186EA3B00E59AFA /* WSView */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D47E2186F49200E59AFA /* WStabbar.h */,
+				FD05D47F2186F49200E59AFA /* WStabbar.m */,
+				FD05D4882186FFA400E59AFA /* WSCell.h */,
+				FD05D4892186FFA400E59AFA /* WSCell.m */,
+			);
+			path = WSView;
+			sourceTree = "<group>";
+		};
+		FD05D4832186F75100E59AFA /* WSImage */ = {
+			isa = PBXGroup;
+			children = (
+				FD1574B8219117DD00C72168 /* home.png */,
+				FD1574B9219117DD00C72168 /* profile.png */,
+				FD05D4812186F74100E59AFA /* defaultImage.jpg */,
+			);
+			path = WSImage;
+			sourceTree = "<group>";
+		};
+		FD05D4842186F9CB00E59AFA /* WSBase */ = {
+			isa = PBXGroup;
+			children = (
+				FD05D4412186E8BB00E59AFA /* AppDelegate.h */,
+				FD05D4422186E8BB00E59AFA /* AppDelegate.m */,
+				FD05D4852186F9F800E59AFA /* WSTools.h */,
+				FD05D4862186F9F800E59AFA /* WSTools.m */,
+			);
+			path = WSBase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD05D46A2186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSports" */;
 			buildPhases = (
+				36C1662884843F5D2D37AA35 /* [CP] Check Pods Manifest.lock */,
 				FD05D43A2186E8BB00E59AFA /* Sources */,
 				FD05D43B2186E8BB00E59AFA /* Frameworks */,
 				FD05D43C2186E8BB00E59AFA /* Resources */,
+				CE26994FA141D787FE507A7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD05D46D2186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSportsTests" */;
 			buildPhases = (
+				BEEDC0E1CA8E6A056E9847D2 /* [CP] Check Pods Manifest.lock */,
 				FD05D4522186E8BE00E59AFA /* Sources */,
 				FD05D4532186E8BE00E59AFA /* Frameworks */,
 				FD05D4542186E8BE00E59AFA /* Resources */,
@@ -174,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD05D4702186E8BE00E59AFA /* Build configuration list for PBXNativeTarget "WangYiSportsUITests" */;
 			buildPhases = (
+				BDFDF6CBC3D3C2386B1B7A22 /* [CP] Check Pods Manifest.lock */,
 				FD05D45D2186E8BE00E59AFA /* Sources */,
 				FD05D45E2186E8BE00E59AFA /* Frameworks */,
 				FD05D45F2186E8BE00E59AFA /* Resources */,
@@ -235,9 +349,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD05D44E2186E8BE00E59AFA /* LaunchScreen.storyboard in Resources */,
 				FD05D44B2186E8BE00E59AFA /* Assets.xcassets in Resources */,
-				FD05D4492186E8BB00E59AFA /* Main.storyboard in Resources */,
+				FD05D4822186F74100E59AFA /* defaultImage.jpg in Resources */,
+				FD1574BA219117DE00C72168 /* home.png in Resources */,
+				FD1574BB219117DE00C72168 /* profile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +372,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36C1662884843F5D2D37AA35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WangYiSports-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDFDF6CBC3D3C2386B1B7A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WangYiSportsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEDC0E1CA8E6A056E9847D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WangYiSportsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE26994FA141D787FE507A7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WangYiSports/Pods-WangYiSports-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WangYiSports/Pods-WangYiSports-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD05D43A2186E8BB00E59AFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD05D4462186E8BB00E59AFA /* ViewController.m in Sources */,
+				FD05D4772186ECAA00E59AFA /* TabbarViewController.m in Sources */,
+				FD05D4872186F9F800E59AFA /* WSTools.m in Sources */,
+				FD05D48D218713DE00E59AFA /* DetailViewController.m in Sources */,
+				FD05D4802186F49200E59AFA /* WStabbar.m in Sources */,
 				FD05D4512186E8BE00E59AFA /* main.m in Sources */,
+				FD05D47A2186ECC100E59AFA /* MainViewController.m in Sources */,
+				FD05D48A2186FFA400E59AFA /* WSCell.m in Sources */,
+				FD05D47D2186ECCE00E59AFA /* ProfileViewController.m in Sources */,
+				FD05D4902187D18C00E59AFA /* BlockViewController.m in Sources */,
 				FD05D4432186E8BB00E59AFA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,25 +511,6 @@
 			targetProxy = FD05D4622186E8BE00E59AFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FD05D4472186E8BB00E59AFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD05D4482186E8BB00E59AFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FD05D44C2186E8BE00E59AFA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD05D44D2186E8BE00E59AFA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD05D4682186E8BE00E59AFA /* Debug */ = {
@@ -433,9 +627,11 @@
 		};
 		FD05D46B2186E8BE00E59AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2AFB4CF505F1C19272E7DF7 /* Pods-WangYiSports.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX95465PM9;
 				INFOPLIST_FILE = WangYiSports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +645,11 @@
 		};
 		FD05D46C2186E8BE00E59AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF2B292BA9D9ECE54148065 /* Pods-WangYiSports.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX95465PM9;
 				INFOPLIST_FILE = WangYiSports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +663,7 @@
 		};
 		FD05D46E2186E8BE00E59AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0299B0C45AC1B1E33A458811 /* Pods-WangYiSportsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +682,7 @@
 		};
 		FD05D46F2186E8BE00E59AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57F61DC7860DEC8A6475ADC /* Pods-WangYiSportsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +701,7 @@
 		};
 		FD05D4712186E8BE00E59AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7A3CE6401596D7C1B317E3 /* Pods-WangYiSportsUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WangYiSportsUITests/Info.plist;
@@ -518,6 +719,7 @@
 		};
 		FD05D4722186E8BE00E59AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A04CCF0ACCF67EE952F3BC /* Pods-WangYiSportsUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WangYiSportsUITests/Info.plist;
